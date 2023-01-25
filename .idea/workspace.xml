@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5c9281c-cb65-4ea2-9e98-0fa915ecbefb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/numberstdd1/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/NumbersCat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/NumbersCatTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="c5c9281c-cb65-4ea2-9e98-0fa915ecbefb" name="Changes" comment="project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,10 +54,19 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.hello">
+  <component name="RunManager" selected="JUnit.NumbersCatTest (1)">
     <configuration name="hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hello" />
       <module name="numbers-tdd3.0" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumbersCatTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="numbers-tdd3.0" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NumbersCatTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -72,16 +76,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="NumbersCatTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumbersCatTest.donat_100" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="numbers-tdd" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NumbersCatTest" />
-      <option name="METHOD_NAME" value="donat_100" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NumbersCatTest (1)" />
         <item itemvalue="Application.hello" />
         <item itemvalue="JUnit.NumbersCatTest" />
         <item itemvalue="JUnit.NumbersCatTest.donat_1234" />
         <item itemvalue="JUnit.NumbersCatTest.donat_427" />
-        <item itemvalue="JUnit.NumbersCatTest.donat_100" />
       </list>
     </recent_temporary>
   </component>
@@ -125,6 +119,14 @@
       <option name="presentableId" value="Default" />
       <updated>1674055552582</updated>
     </task>
+    <task id="LOCAL-00001" summary="project">
+      <created>1674662811072</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674662811072</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,5 +139,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="project" />
+    <option name="LAST_COMMIT_MESSAGE" value="project" />
   </component>
 </project>
