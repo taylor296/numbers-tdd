@@ -22,7 +22,7 @@ public class NumbersCatTest {
 
     @Test
     public void donat_1_retorna_Un() {
-        assertEquals("Uno", NumbersCat.say(1l));
+        assertEquals("Un", NumbersCat.say(1l));
     }
 
     @Test
