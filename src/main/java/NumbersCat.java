@@ -68,7 +68,9 @@ public class NumbersCat {
             } else {
                 nombre = say(centena) + "-cents";
             }
-            if (resto != 0) {
+            if (resto!=0 && centena==1){
+                nombre = "cent " + say(resto).toLowerCase();
+            }else if (resto != 0) {
                 nombre = say(centena) + "-cents " + say(resto).toLowerCase();
             }
             return nombre;
@@ -88,6 +90,7 @@ public class NumbersCat {
             }
             return nombre;
         }
+
         return null;
     }
 }

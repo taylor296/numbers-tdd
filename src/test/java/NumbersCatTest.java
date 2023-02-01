@@ -71,4 +71,11 @@ public class NumbersCatTest {
 
     @Test
     public void donat_1234() {assertEquals("Mil dos-cents trenta-quatre", NumbersCat.say(1234));}
+
+    @Test
+    public void do23_102() {assertEquals("Vint-i-tres mil cent dos", NumbersCat.say(23102));}
+
+
+    @Test
+    public void do872_423() {assertEquals("Vuit-cents setanta-dos mil quatre-cents vint-i-tres", NumbersCat.say(872423));}
 }
