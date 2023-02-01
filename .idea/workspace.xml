@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5c9281c-cb65-4ea2-9e98-0fa915ecbefb" name="Changes" comment="test">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/numberstdd1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/numberstdd1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NumbersCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NumbersCat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NumbersCatTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NumbersCatTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="c5c9281c-cb65-4ea2-9e98-0fa915ecbefb" name="Changes" comment="milio" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -146,7 +141,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674664612052</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="milio">
+      <created>1675261888106</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675261888106</updated>
+    </task>
+    <task id="LOCAL-00005" summary="milio">
+      <created>1675261934717</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675261934718</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,6 +173,7 @@
     <MESSAGE value="project" />
     <MESSAGE value="pipeline" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="milio" />
+    <option name="LAST_COMMIT_MESSAGE" value="milio" />
   </component>
 </project>

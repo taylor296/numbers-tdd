@@ -75,7 +75,7 @@ public class NumbersCat {
             }
             return nombre;
         }
-        if (n > 999) {
+        if (n > 999) { // fins a milio
             int mil = (int) n / 1000;
             int resto = (int) n % 1000;
             String nombre = "";
