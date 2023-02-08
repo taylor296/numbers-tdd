@@ -54,7 +54,7 @@ public class NumbersCat {
             res = menorCent(n);
             return res;
         }
-        if (n >= 100 && n < 1000) {
+        if (sonCentenes(n)) {
             String res = "";
             res = menorMil(n);
             return res;
@@ -66,6 +66,10 @@ public class NumbersCat {
         }
 
         return null;
+    }
+
+    private static boolean sonCentenes(long n) {
+        return n >= 100 && n < 1000;
     }
 
     private static String menorCent(long n) {
