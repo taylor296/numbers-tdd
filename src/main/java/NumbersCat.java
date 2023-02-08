@@ -76,14 +76,14 @@ public class NumbersCat {
             return nombre;
         }
         if (n > 999) { // fins a milio
-            int mil = (int) n / 1000;
+            int miler = (int) n / 1000;
             int resto = (int) n % 1000;
             String nombre = "";
             String espai = " ";
-            if (mil == 1) {
+            if (miler == 1) {
                 nombre = "Mil";
             } else {
-                nombre = say(mil) + " mil";
+                nombre = say(miler) + " mil";
             }
             if (resto != 0) {
                 nombre += espai + say(resto).toLowerCase();
