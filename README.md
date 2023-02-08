@@ -1,2 +1,2 @@
 # numbers-tdd
-NumbersTDD-Git
+NumbersTDD-GitHub
