@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5c9281c-cb65-4ea2-9e98-0fa915ecbefb" name="Changes" comment="milio">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NumbersCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NumbersCat.java" afterDir="false" />
+    <list default="true" id="c5c9281c-cb65-4ea2-9e98-0fa915ecbefb" name="Changes" comment="gitignore">
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +21,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
@@ -58,7 +58,7 @@
     &quot;last_opened_file_path&quot;: &quot;/home/superior/IdeaProjects/numbers-tdd&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.NumbersCatTest (1)">
+  <component name="RunManager" selected="JUnit.All in numbers-tdd3.0">
     <configuration name="hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hello" />
       <module name="numbers-tdd3.0" />
@@ -66,17 +66,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumbersCatTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in numbers-tdd3.0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="numbers-tdd3.0" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NumbersCatTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumbersCatTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="numbers-tdd" />
+    <configuration name="NumbersCatTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="numbers-tdd3.0" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="NumbersCatTest" />
       <option name="TEST_OBJECT" value="class" />
@@ -106,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in numbers-tdd3.0" />
         <item itemvalue="JUnit.NumbersCatTest (1)" />
         <item itemvalue="JUnit.NumbersCatTest.do872_423" />
         <item itemvalue="JUnit.NumbersCatTest.do23_102" />
         <item itemvalue="Application.hello" />
-        <item itemvalue="JUnit.NumbersCatTest" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675261934718</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="gitignore">
+      <created>1675874216914</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675874216914</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,6 +183,7 @@
     <MESSAGE value="pipeline" />
     <MESSAGE value="test" />
     <MESSAGE value="milio" />
-    <option name="LAST_COMMIT_MESSAGE" value="milio" />
+    <MESSAGE value="gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
   </component>
 </project>
