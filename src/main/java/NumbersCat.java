@@ -49,42 +49,53 @@ public class NumbersCat {
             case 90:
                 return "Noranta";
         }
-        int unitat = 0;
-        int decena = 0;
         if (n > 20 && n < 100) {
-            unitat = (int) n % 10;
-            decena = 10 * ((int) n / 10);
-            if (n < 30) {
-                return say(decena) + "-i-" + say(unitat).toLowerCase();
-            }
-            return say(decena) + "-" + say(unitat).toLowerCase();
+            String res = "";
+            res = menorCent(n);
+            return res;
         }
         if (n >= 100 && n < 1000) {
-            String nombre;
-            nombre = menorsMil(n);
-
-            return nombre;
+            String res = "";
+            res = menorMil(n);
+            return res;
         }
         if (n > 999) { // fins a milio
-            int miler = (int) n / 1000;
-            int resto = (int) n % 1000;
-            String nombre = "";
-            String espai = " ";
-            if (miler == 1) {
-                nombre = "Mil";
-            } else {
-                nombre = say(miler) + " mil";
-            }
-            if (resto != 0) {
-                nombre += espai + say(resto).toLowerCase();
-            }
-            return nombre;
+            String resultat = "";
+            resultat = MenorMilio(n);
+            return resultat;
         }
 
         return null;
     }
 
-    private static String menorsMil(long n) {
+    private static String menorCent(long n) {
+        int unitat = 0;
+        int decena = 0;
+        unitat = (int) n % 10;
+        decena = 10 * ((int) n / 10);
+        if (n < 30) {
+            return say(decena) + "-i-" + say(unitat).toLowerCase();
+        }
+        return say(decena) + "-" + say(unitat).toLowerCase();
+    }
+
+    private static String MenorMilio(long n) {
+        int mil = (int) n / 1000;
+        int resto = (int) n % 1000;
+        String nombre = "";
+        String espai = " ";
+        if (mil == 1) {
+            nombre = "Mil";
+        } else {
+            nombre = say(mil) + " mil";
+        }
+        if (resto != 0) {
+            nombre += espai + say(resto).toLowerCase();
+        }
+        return nombre;
+    }
+
+    private static String menorMil(long n) {
         int centena = (int) n / 100;
         int resto = (int) n % 100;
         String nombre = ""; //to

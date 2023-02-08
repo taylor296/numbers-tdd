@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e14d44dd-f8eb-46fe-9e3f-afc36d1e0826" name="Changes" comment="JoseL">
+    <list default="true" id="c5c9281c-cb65-4ea2-9e98-0fa915ecbefb" name="Changes" comment="milio">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/NumbersCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NumbersCat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,11 +13,23 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeStyleSettingsInfer">
-    <option name="done" value="true" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="c38502f4-56df-420b-90d1-4718ce658a51" />
+        <option name="url" value="https://github.com/taylor296/numbers-tdd.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -28,23 +41,32 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectCodeStyleSettingsMigration">
-    <option name="version" value="2" />
-  </component>
-  <component name="ProjectId" id="2LSkDRwJpjsqLQO2fW1FTWXeLpY" />
+  <component name="ProjectId" id="2KVMyRcmyqxQ8lK25QUNumbAazu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/superior/IdeaProjects/numbers-tdd&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration name="NumbersCatTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.NumbersCatTest (1)">
+    <configuration name="hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hello" />
+      <module name="numbers-tdd3.0" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumbersCatTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="numbers-tdd3.0" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="NumbersCatTest" />
@@ -53,8 +75,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NumbersCatTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="numbers-tdd" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NumbersCatTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumbersCatTest.do23_102" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="numbers-tdd3.0" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NumbersCatTest" />
+      <option name="METHOD_NAME" value="do23_102" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumbersCatTest.do872_423" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="numbers-tdd3.0" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NumbersCatTest" />
+      <option name="METHOD_NAME" value="do872_423" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NumbersCatTest (1)" />
+        <item itemvalue="JUnit.NumbersCatTest.do872_423" />
+        <item itemvalue="JUnit.NumbersCatTest.do23_102" />
+        <item itemvalue="Application.hello" />
         <item itemvalue="JUnit.NumbersCatTest" />
       </list>
     </recent_temporary>
@@ -62,41 +117,48 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e14d44dd-f8eb-46fe-9e3f-afc36d1e0826" name="Changes" comment="" />
-      <created>1675871756244</created>
+      <changelist id="c5c9281c-cb65-4ea2-9e98-0fa915ecbefb" name="Changes" comment="" />
+      <created>1674055552582</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1675871756244</updated>
+      <updated>1674055552582</updated>
     </task>
-    <task id="LOCAL-00001" summary="Aaron Puertollano">
-      <created>1675871847353</created>
+    <task id="LOCAL-00001" summary="project">
+      <created>1674662811072</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1675871847353</updated>
+      <updated>1674662811072</updated>
     </task>
-    <task id="LOCAL-00002" summary="LilMantis">
-      <created>1675872216626</created>
+    <task id="LOCAL-00002" summary="pipeline">
+      <created>1674663044669</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1675872216626</updated>
+      <updated>1674663044669</updated>
     </task>
-    <task id="LOCAL-00003" summary="LilMantiss">
-      <created>1675872301182</created>
+    <task id="LOCAL-00003" summary="test">
+      <created>1674664612052</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1675872301182</updated>
+      <updated>1674664612052</updated>
     </task>
-    <task id="LOCAL-00004" summary="JoseL">
-      <created>1675872444363</created>
+    <task id="LOCAL-00004" summary="milio">
+      <created>1675261888106</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1675872444363</updated>
+      <updated>1675261888106</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="milio">
+      <created>1675261934717</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675261934718</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,10 +173,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Aaron Puertollano" />
-    <MESSAGE value="LilMantis" />
-    <MESSAGE value="LilMantiss" />
-    <MESSAGE value="JoseL" />
-    <option name="LAST_COMMIT_MESSAGE" value="JoseL" />
+    <MESSAGE value="project" />
+    <MESSAGE value="pipeline" />
+    <MESSAGE value="test" />
+    <MESSAGE value="milio" />
+    <option name="LAST_COMMIT_MESSAGE" value="milio" />
   </component>
 </project>
