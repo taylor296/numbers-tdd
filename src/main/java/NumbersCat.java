@@ -60,19 +60,9 @@ public class NumbersCat {
             return say(decena) + "-" + say(unitat).toLowerCase();
         }
         if (n >= 100 && n < 1000) {
-            int centena = (int) n / 100;
-            int resto = (int) n % 100;
-            String nombre = ""; //to
-            if (centena == 1) {
-                nombre = "Cent";
-            } else {
-                nombre = say(centena) + "-cents";
-            }
-            if (resto!=0 && centena==1){
-                nombre = "cent " + say(resto).toLowerCase();
-            }else if (resto != 0) {
-                nombre = say(centena) + "-cents " + say(resto).toLowerCase();
-            }
+            String nombre;
+            nombre = menorsMil(n);
+
             return nombre;
         }
         if (n > 999) { // fins a milio
@@ -92,6 +82,23 @@ public class NumbersCat {
         }
 
         return null;
+    }
+
+    private static String menorsMil(long n) {
+        int centena = (int) n / 100;
+        int resto = (int) n % 100;
+        String nombre = ""; //to
+        if (centena == 1) {
+            nombre = "Cent";
+        } else {
+            nombre = say(centena) + "-cents";
+        }
+        if (resto!=0 && centena==1){
+            nombre = "cent " + say(resto).toLowerCase();
+        }else if (resto != 0) {
+            nombre = say(centena) + "-cents " + say(resto).toLowerCase();
+        }
+        return nombre;
     }
 }
 
