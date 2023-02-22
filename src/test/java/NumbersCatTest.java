@@ -31,6 +31,11 @@ public class NumbersCatTest {
     }
 
     @Test
+    public void donat_11_retorna_Once(){
+        assertEquals("Onze", NumbersCat.say(11l));
+    }
+
+    @Test
     public void donat_9_retorna_Nou(){
         assertEquals("Donat el 9 retorna Nou","Nou", NumbersCat.say(9l));
     }
